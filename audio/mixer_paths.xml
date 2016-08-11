@@ -2187,6 +2187,10 @@
         <!--ctl name="Configuration" value="0" /-->
     </path>
 
+    <path name="voice-hac-handset">
+        <path name="handset" />
+    </path>
+
     <path name="voice-handset-tmus">
         <path name="handset" />
     </path>
