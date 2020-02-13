@@ -33,8 +33,11 @@ TARGET_OTA_ASSERT_DEVICE := tulip,twolip
 # Kernel
 TARGET_KERNEL_CONFIG := tulip_defconfig
 
+# IPA
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+
 # Security patch level
-VENDOR_SECURITY_PATCH := 2018-11-01
+VENDOR_SECURITY_PATCH := 2019-11-01
 
 # Inherit the proprietary files
 -include vendor/xiaomi/twolip/BoardConfigVendor.mk
