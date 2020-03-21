@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "gh",
+    "repository": "ryan-andri/android_kernel_xiaomi_tulip",
+    "target_path": "kernel/xiaomi/tulip",
+    "revision": "android-10"
+  },
+  {
+    "remote": "lineage",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "revision": "lineage-17.1"
+  }
+]
