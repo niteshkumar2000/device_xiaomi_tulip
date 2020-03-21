@@ -31,6 +31,7 @@ on init
     chmod 0700 /sys/bus/platform/devices/soc:fpc1020/hw_reset
     chmod 0700 /sys/bus/platform/devices/soc:fpc1020/device_prepare
     chmod 0700 /sys/bus/platform/devices/soc:fpc1020/vendor
+    chmod 0600 /data/misc/fpc/calibration_image.pndat
 
 on post-fs-data
     mkdir /data/vendor/fpc 0770 system system

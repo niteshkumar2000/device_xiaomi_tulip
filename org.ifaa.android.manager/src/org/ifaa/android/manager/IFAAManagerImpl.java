@@ -162,7 +162,7 @@ public class IFAAManagerImpl extends IFAAManagerV4 {
             //         this.mDevModel = miuiFeature;
             //     }
             // }
-            mDevModel = "xiaomi" + "-" + "wayne";
+            mDevModel = "xiaomi" + "-" + "tulip";
         }
         if (DEBUG) Slog.i(TAG, "getDeviceModel devcieModel:" + mDevModel);
         return mDevModel;
