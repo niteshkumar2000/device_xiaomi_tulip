@@ -89,6 +89,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
+    camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,com.longcheertel.cit \
     persist.vendor.camera.preview.ubwc=0 \
     vendor.video.disable.ubwc=1 \
     vidc.enc.dcvs.extra-buff-count=2 \
@@ -97,11 +99,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.depth.focus.cb=0 \
     persist.vendor.camera.exif.make=Xiaomi \
     persist.vendor.camera.expose.aux=1 \
+    persist.vendor.camera.ltm.overlap=13 \
     persist.vendor.camera.imglib.usefdlite=1 \
     persist.vendor.camera.isp.clock.optmz=0 \
     persist.vendor.camera.isp.turbo=1 \
     persist.vendor.camera.linkpreview=0 \
-    persist.vendor.camera.preview.ubwc=0 \
     persist.vendor.camera.stats.test=0 \
     persist.vendor.imx376_ofilm.light.lux=275 \
     persist.vendor.imx376_ofilm.low.lux=290 \
@@ -137,6 +139,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.enable_default_color_mode=1 \
     vendor.gralloc.enable_fb_ubwc=1 \
     ro.sf.lcd_density=440
+
+# Enable b-services aging propagation
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.sys.fw.bservice_enable=true
 
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
