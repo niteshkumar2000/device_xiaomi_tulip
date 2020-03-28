@@ -89,8 +89,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi,com.longcheertel.cit \
     persist.vendor.camera.preview.ubwc=0 \
     vendor.video.disable.ubwc=1 \
     vidc.enc.dcvs.extra-buff-count=2 \
@@ -109,6 +107,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.imx376_ofilm.low.lux=290 \
     persist.vendor.imx376_sunny.light.lux=275 \
     persist.vendor.imx376_sunny.low.lux=290
+
+# Camera Aux
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
 
 # Codec2 switch
 PRODUCT_PROPERTY_OVERRIDES += \
