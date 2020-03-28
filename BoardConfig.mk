@@ -25,10 +25,10 @@
 # Inherit from sdm660-common
 -include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/twolip
+DEVICE_PATH := device/xiaomi/tulip
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := tulip,twolip
+TARGET_OTA_ASSERT_DEVICE := tulip,tulip
 
 # Kernel
 TARGET_KERNEL_CONFIG := tulip_defconfig
@@ -40,4 +40,4 @@ USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
 VENDOR_SECURITY_PATCH := 2019-11-01
 
 # Inherit the proprietary files
--include vendor/xiaomi/twolip/BoardConfigVendor.mk
+-include vendor/xiaomi/tulip/BoardConfigVendor.mk
