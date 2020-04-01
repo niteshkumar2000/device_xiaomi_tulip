@@ -28,7 +28,7 @@
 DEVICE_PATH := device/xiaomi/tulip
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := tulip,tulip
+TARGET_OTA_ASSERT_DEVICE := tulip,twolip
 
 # Kernel
 TARGET_KERNEL_CONFIG := tulip_defconfig
