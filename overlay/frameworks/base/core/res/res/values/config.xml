@@ -78,4 +78,7 @@
          during initialization when the setting is still null. -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
+    <!-- Indicates that connected MAC randomization is supported on this device -->
+   <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
+   
 </resources>
