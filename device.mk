@@ -24,7 +24,7 @@
 # Inherit from sdm660-common
 $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 
-DEVICE_PATH := device/xiaomi/twolip
+DEVICE_PATH := device/xiaomi/tulip
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -46,4 +46,4 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
 # Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/twolip/twolip-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/tulip/tulip-vendor.mk)

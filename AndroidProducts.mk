@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_twolip.mk
+    $(LOCAL_DIR)/cesium_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    cesium_twolip-user \
-    cesium_twolip-userdebug \
-    cesium_twolip-eng
+    cesium_tulip-user \
+    cesium_tulip-userdebug \
+    cesium_tulip-eng

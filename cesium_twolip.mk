@@ -22,13 +22,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Cesium stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Inherit from twolip device
+# Inherit from tulip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := twolip
+PRODUCT_DEVICE := tulip
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := cesium_twolip
+PRODUCT_NAME := cesium_tulip
 PRODUCT_MODEL := Redmi Note 6 Pro
 
 TARGET_GAPPS_ARCH := arm64
